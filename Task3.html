@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Task3 forms</title>
+      <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="header">
+            <h1>
+                Contact form
+            </h1>
+            <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+            </ul>
+            </nav>
+        </div>
+        <main>
+            <form action="/submit">
+                <label for="name">Name</label><br>
+                <input type="text" id="name" name="name"><br>
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email"><br>
+                <label for="gender">Gender</label><br>
+                <input type="radio" id="male" name="gender">male
+                <input type="radio" id="female" name="gender">female<br><br>
+                <label for="city">City</label>
+                <select>
+                    <option value="hyderabd">Hyderabad</option>
+                    <option value="vizag">Vizag</option>
+                    <option value="delhi">Delhi</option>
+                </select><br><br>
+                <label>Interests:</label>
+      <input type="checkbox" value="coding"> Coding
+      <input type="checkbox" value="music"> Music<br><br>
+      <textarea rows="10" cols="40" placeholder="enter your feedback"></textarea><br><br>
+      <input type="submit" value="submit">
+            </form>
+        </main><br>
+        <footer><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia rerum, debitis quisquam illo accusantium similique sit fugit laboriosam at eius cum, officia atque. Sapiente laudantium eius incidunt ipsam, rem architecto.</p></footer>
+        
+    </body>
+</html>
