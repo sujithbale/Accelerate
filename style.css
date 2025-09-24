@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+body{
+    /* background-color: white; */
+    background: content-box radial-gradient(rgba(240, 237, 237, 0.853), rgb(40, 41, 42));
+    Background-size: cover;
+    background: url(20220306110335_IMG_4919.JPG) no-repeat ;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* text-align: end; */
+}
+
+h1{
+    text-align: center;
+    color: rgb(72, 0, 255);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+
+}
+form{
+    background-color: rgb(255, 0, 208);
+}
+input{
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+label{
+    font-size: larger;
+    font-style: oblique;
+}
+li{
+    display: inline-block;
+    padding: 30px;
+    align-items: center;
+    
+}
+footer{
+    background-color: aqua;
+    border-radius: 10px;
+    padding: 10px;
+    border-style: solid;
+    border-width: 2px;
+
+}
